@@ -39,7 +39,7 @@ const HeroUdin: React.FC<NavbarProps> = ({ handleMenuClick }) => {
                text-[#00344A] font-semibold text-lg py-3 px-8 max-sm:px-16 rounded-full
                shadow-lg shadow-cyan-400/30 hover:shadow-cyan-400/50
                transition-all duration-300">
-                Admin{" "}
+                BGN{" "}
               </button>
             </Link>
           </div>
