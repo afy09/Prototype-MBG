@@ -122,9 +122,10 @@ const HeroUdin: React.FC<NavbarProps> = ({ handleMenuClick }) => {
             href="https://wa.me/6281384654485"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-10 text-lg  block font-semibold w-fit  rounded-lg 
+            className="mt-5 text-lg  block font-semibold w-fit  rounded-lg 
              hover:bg-[#4ffefe]  hover:text-cyan-800 transition-all cursor-pointer">
-            CP : Yudi Cahya Prawira - 081384654485
+            IT Consultant <br />
+            Yudi C Prawira - 081384654485
           </a>
         </div>
       </div>
