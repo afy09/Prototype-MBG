@@ -27,7 +27,7 @@ const HeroUdin: React.FC<NavbarProps> = ({ handleMenuClick }) => {
         </h1>
         <p className="text-white text-lg my-2 font-edu">Nutritious Food for Indonesia</p>
 
-        <div className="lg:flex   justify-center gap-4  items-center mt-10 max-sm:w-full ">
+        <div className="lg:flex   justify-center gap-4  items-center mt-10 max-md:w-full ">
           <div className="">
             <Link
               to="https://www.figma.com/proto/vmn1WnnPG7EJppyDHHokyt/Project-MBG--WEB-?node-id=2048-4254&t=FsJKyifFvBURYLZE-0&scaling=scale-down-width&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=2048%3A6276&show-proto-sidebar=1"
@@ -36,7 +36,7 @@ const HeroUdin: React.FC<NavbarProps> = ({ handleMenuClick }) => {
               <button
                 className="relative bg-gradient-to-r from-[#4facfe] to-[#00f2fe]
                hover:from-[#6fc3ff] hover:to-[#4ffefe]
-               text-[#00344A] font-semibold text-lg py-3 px-8 max-sm:px-16 rounded-full
+               text-[#00344A] font-semibold text-lg py-3 px-8 max-md:px-16 rounded-full
                shadow-lg shadow-cyan-400/30 hover:shadow-cyan-400/50
                transition-all duration-300">
                 BGN{" "}
@@ -44,7 +44,7 @@ const HeroUdin: React.FC<NavbarProps> = ({ handleMenuClick }) => {
             </Link>
           </div>
 
-          <div className="max-sm:mt-4 max-sm:w-full">
+          <div className="max-md:mt-4 max-md:w-full">
             <Link
               to="https://www.figma.com/proto/vmn1WnnPG7EJppyDHHokyt/Project-MBG--WEB-?node-id=5-6186&t=FsJKyifFvBURYLZE-0&scaling=scale-down-width&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=5%3A6186&show-proto-sidebar=1
               "
@@ -53,14 +53,14 @@ const HeroUdin: React.FC<NavbarProps> = ({ handleMenuClick }) => {
               <button
                 className="relative bg-gradient-to-r from-[#4facfe] to-[#00f2fe]
                hover:from-[#6fc3ff] hover:to-[#4ffefe]
-               text-[#00344A] font-semibold text-lg py-3 px-8 max-sm:px-16  rounded-full
+               text-[#00344A] font-semibold text-lg py-3 px-8 max-md:px-16  rounded-full
                shadow-lg shadow-cyan-400/30 hover:shadow-cyan-400/50
                transition-all duration-300">
                 SPPG{" "}
               </button>
             </Link>
           </div>
-          <div className=" max-sm:mt-4 max-sm:w-full">
+          <div className=" max-md:mt-4 max-md:w-full">
             <Link
               to="https://www.figma.com/proto/vmn1WnnPG7EJppyDHHokyt/Project-MBG--WEB-?node-id=2262-9238&t=FsJKyifFvBURYLZE-0&scaling=scale-down-width&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=5%3A6186&show-proto-sidebar=1
 
@@ -70,14 +70,14 @@ const HeroUdin: React.FC<NavbarProps> = ({ handleMenuClick }) => {
               <button
                 className="relative bg-gradient-to-r from-[#4facfe] to-[#00f2fe]
                hover:from-[#6fc3ff] hover:to-[#4ffefe]
-               text-[#00344A] font-semibold text-lg py-3 px-8 max-sm:px-16 rounded-full
+               text-[#00344A] font-semibold text-lg py-3 px-8 max-md:px-16 rounded-full
                shadow-lg shadow-cyan-400/30 hover:shadow-cyan-400/50
                transition-all duration-300">
                 Mitra{" "}
               </button>
             </Link>
           </div>
-          <div className="max-sm:mt-4 max-sm:w-full">
+          <div className="max-md:mt-4 max-md:w-full">
             <Link
               to="https://www.figma.com/proto/Uz3MCmiylwEyiGS5XwKvcy/Project-MBG--MOBILE-?node-id=4013-6435&t=2A0CFasv4UC3g3Ge-0&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=4013%3A6435&show-proto-sidebar=1
 
@@ -88,7 +88,7 @@ const HeroUdin: React.FC<NavbarProps> = ({ handleMenuClick }) => {
               <button
                 className="relative bg-gradient-to-r from-[#4facfe] to-[#00f2fe]
                hover:from-[#6fc3ff] hover:to-[#4ffefe]
-               text-[#00344A] font-semibold text-lg py-3 px-8 max-sm:px-16  rounded-full
+               text-[#00344A] font-semibold text-lg py-3 px-8 max-md:px-16  rounded-full
                shadow-lg shadow-cyan-400/30 hover:shadow-cyan-400/50
                transition-all duration-300">
                 Guru{" "}
@@ -96,7 +96,7 @@ const HeroUdin: React.FC<NavbarProps> = ({ handleMenuClick }) => {
             </Link>
           </div>
 
-          <div className="max-sm:mt-4 max-sm:w-full">
+          <div className="max-md:mt-4 max-md:w-full">
             <Link
               to="https://www.figma.com/proto/Uz3MCmiylwEyiGS5XwKvcy/Project-MBG--MOBILE-?node-id=4013-12567&t=24BPE7YiGNgjuxYZ-0&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=4013%3A12567&show-proto-sidebar=1 
 
@@ -107,7 +107,7 @@ const HeroUdin: React.FC<NavbarProps> = ({ handleMenuClick }) => {
               <button
                 className="relative bg-gradient-to-r from-[#4facfe] to-[#00f2fe]
                 hover:from-[#6fc3ff] hover:to-[#4ffefe]
-                text-[#00344A] font-semibold text-lg py-3 px-8 max-sm:px-16  rounded-full
+                text-[#00344A] font-semibold text-lg py-3 px-8 max-md:px-16  rounded-full
                 shadow-lg shadow-cyan-400/30 hover:shadow-cyan-400/50
                 transition-all duration-300
                 before:absolute before:inset-0 before:bg-black/10 before:rounded-full before:-z-0
