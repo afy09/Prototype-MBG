@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+// import { Link, useNavigate } from "react-router-dom";
 import { Eye, EyeOff } from "lucide-react"; // icon mata
 
 interface NavbarProps {
@@ -118,7 +118,7 @@ const HeroUdin: React.FC<NavbarProps> = ({ handleMenuClick }) => {
         </div>
 
         {/* WA Contact */}
-        <div className="mt-5 text-lg shadow-lg">
+        {/* <div className="mt-5 text-lg shadow-lg">
           <a
             href="https://wa.me/6281384654485"
             target="_blank"
@@ -128,7 +128,7 @@ const HeroUdin: React.FC<NavbarProps> = ({ handleMenuClick }) => {
             IT Consultant <br />
             Yudi C Prawira - 081384654485
           </a>
-        </div>
+        </div> */}
       </div>
 
       {/* MODAL PASSWORD */}
