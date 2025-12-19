@@ -43,7 +43,7 @@ const HeroUdin: React.FC<NavbarProps> = ({ handleMenuClick }) => {
         </div>
         <p>Prototipe</p>
         <h1 className="text-[29px] md:text-6xl font-bold max-w-4xl">
-          Cammand Center <span className="text-primary">MBG</span>
+          Command Center <span className="text-primary">MBG</span>
         </h1>
         <p className="text-white text-lg my-2 font-edu">Nutritious Food for Indonesia</p>
 
