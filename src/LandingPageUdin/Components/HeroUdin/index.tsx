@@ -41,10 +41,9 @@ const HeroUdin: React.FC<NavbarProps> = ({ handleMenuClick }) => {
         <div className="flex justify-center mb-4">
           <img src="/images/logo_bgn.svg" className="w-28 h-28" alt="" />
         </div>
-
+        <p>Prototipe</p>
         <h1 className="text-[29px] md:text-6xl font-bold max-w-4xl">
-          Prototype MBG
-          <br /> <span className="text-primary">(MAKAN BERGIZI GRATIS)</span>
+          Cammand Center <span className="text-primary">MBG</span>
         </h1>
         <p className="text-white text-lg my-2 font-edu">Nutritious Food for Indonesia</p>
 
