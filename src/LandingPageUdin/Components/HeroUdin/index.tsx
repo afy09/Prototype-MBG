@@ -32,20 +32,21 @@ const HeroUdin: React.FC<NavbarProps> = ({ handleMenuClick }) => {
   };
 
   return (
-    <section className="relative w-full h-[100vh] overflow-hidden text-white -mt-20">
+    <section className="relative w-full h-[100vh] overflow-hidden text-white -mt-20 ">
       {/* Background */}
       <img className="absolute top-0 left-0 w-full h-full object-cover z-[-1]" alt="Video Background" src="/images/bg_mbg.jpeg" />
-      <div className="absolute inset-0 bg-black bg-opacity-50 z-0" />
+      <div className="absolute inset-0 z-0" />
 
       <div className="relative z-10 flex flex-col justify-center items-center h-full px-4 text-center">
-        <div className="flex justify-center mb-4">
+        <div className="flex justify-center gap-4 items-center mb-4">
           <img src="/images/logo_bgn.svg" className="w-28 h-28" alt="" />
+          <img src="/images/logo_ksp.png" className="w-32 h-28 " alt="" />
         </div>
-        <p>Prototipe</p>
-        <h1 className="text-[29px] md:text-6xl font-bold max-w-4xl">
-          Command Center <span className="text-primary">MBG</span>
+        <p className="text-blue-950">Prototipe</p>
+        <h1 className="text-[29px] md:text-6xl font-bold max-w-4xl text-blue-950">
+          Command Center <span className="text-blue-900">MBG</span>
         </h1>
-        <p className="text-white text-lg my-2 font-edu">Nutritious Food for Indonesia</p>
+        <p className="text-blue-950 text-lg my-2 font-edu">Kepala Staff Presiden</p>
 
         {/* BUTTON LIST */}
         <div className="lg:flex justify-center gap-4 items-center mt-10 max-lg:w-full">
@@ -84,7 +85,7 @@ const HeroUdin: React.FC<NavbarProps> = ({ handleMenuClick }) => {
                  text-[#00344A] font-semibold text-lg py-3 px-8 max-lg:px-16
                  rounded-full shadow-lg shadow-cyan-400/30 hover:shadow-cyan-400/50
                  transition-all duration-300">
-              Mitra
+              Suplier
             </button>
           </div>
 
