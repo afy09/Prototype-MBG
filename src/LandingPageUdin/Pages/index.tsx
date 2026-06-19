@@ -1,13 +1,5 @@
 import React, { useState, useRef } from "react";
 import HeroUdin from "../Components/HeroUdin";
-import Fitur from "../Components/About";
-import About from "../Components/Fitur";
-import Footer from "../Components/Footer";
-import Navbar from "../Components/Navbar";
-import Satuan from "../Components/About/Satuan";
-import JenisGerai from "../Components/JenisGerai";
-import Gallery from "./galeri/galeri";
-import WhatsAppButton from "../Components/Widget/wdgetWa";
 
 const HEADER_HEIGHT = 96;
 const LandingPageUdin: React.FC = () => {
