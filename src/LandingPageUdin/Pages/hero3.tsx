@@ -50,7 +50,7 @@ const portals: Portal[] = [
     label: "Ews",
     desc: "Early Warning Distribusi",
     icon: <PackageOpen size={20} />,
-    url: "https://www.figma.com/proto/Uz3MCmiylwEyiGS5XwKvcy/Project-MBG--MOBILE-?node-id=4013-12567&t=24BPE7YiGNgjuxYZ-0",
+    url: "https://www.figma.com/design/vmn1WnnPG7EJppyDHHokyt/Project-MBG--WEB-?node-id=3280-11568&t=nWREZKsnsiVl8RXO-0",
   },
 ];
 
