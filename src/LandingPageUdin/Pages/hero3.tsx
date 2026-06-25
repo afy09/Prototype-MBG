@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Eye, EyeOff, Building2, School, Truck, BookOpen, UserCheck } from "lucide-react";
+import { Eye, EyeOff, Building2, School, Truck, BookOpen, UserCheck, PackageOpen } from "lucide-react";
 
 interface Portal {
   key: string;
@@ -43,6 +43,13 @@ const portals: Portal[] = [
     label: "Siswa",
     desc: "Portal Pelajar",
     icon: <UserCheck size={20} />,
+    url: "https://www.figma.com/proto/Uz3MCmiylwEyiGS5XwKvcy/Project-MBG--MOBILE-?node-id=4013-12567&t=24BPE7YiGNgjuxYZ-0",
+  },
+  {
+    key: "ews",
+    label: "Ews",
+    desc: "Early Warning Distribusi",
+    icon: <PackageOpen size={20} />,
     url: "https://www.figma.com/proto/Uz3MCmiylwEyiGS5XwKvcy/Project-MBG--MOBILE-?node-id=4013-12567&t=24BPE7YiGNgjuxYZ-0",
   },
 ];
