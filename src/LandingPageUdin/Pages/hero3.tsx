@@ -47,8 +47,8 @@ const portals: Portal[] = [
   },
   {
     key: "ews",
-    label: "Ews",
-    desc: "Early Warning Distribusi",
+    label: "EWS",
+    desc: "Early Warning System",
     icon: <PackageOpen size={20} />,
     url: "https://www.figma.com/design/vmn1WnnPG7EJppyDHHokyt/Project-MBG--WEB-?node-id=3280-11568&t=nWREZKsnsiVl8RXO-0",
   },
